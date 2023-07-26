@@ -3,6 +3,7 @@ using System.Data.SqlTypes;
 
 namespace ProtobufnetNestedSurrogateIssueDemo
 {
+    [ProtoContract]
     public struct SqlDecimalSurrogate
     {
         public SqlDecimalSurrogate(decimal value)
